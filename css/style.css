@@ -189,9 +189,10 @@ h2{
     .top-influencer{
         display: grid;
         grid-template-columns: 100px 100px;
-        margin: auto;
+        margin: 5px;
         height: fit-content;
         width: fit-content;
+
         
         
     }
@@ -224,9 +225,10 @@ h2{
        height: fit-content;
        width: fit-content;
        font-size: 10px;
+       margin: 5px;
     }
     .influencer{
-        margin: auto;
+        margin: 5px 5px;
         width:fit-content;
         height: fit-content;
         padding: 3px;
