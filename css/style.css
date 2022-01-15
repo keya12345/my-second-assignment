@@ -33,7 +33,7 @@ li>a{
     padding: 5px;
 }
 /* **main** */
-/* ***section 1**** */
+
 main{
     margin: 20px;
     padding: 20px;
@@ -46,7 +46,7 @@ h1{
 p{
     font-weight: 3em;
 }
-
+/* ***section 1**** */
 .top-influencer{
     display: flex;
     justify-content: space-between;
@@ -86,9 +86,9 @@ p{
 .logos{
     display: grid;
     grid-template-columns: repeat(7,1fr);
-    margin: 20px 20px;
+    margin: 40px 20px;
     padding: 10px;
-    border:1px solid rgb(188, 188, 207);
+    background-image: linear-gradient(gray, rgb(173, 173, 192));
 }
 /* ****section 2**** */
 .second-section{
@@ -111,7 +111,7 @@ p{
 .card{
     width: 300px;
     padding: 30px;
-     margin-right: 0px;
+    margin: 0 auto;
 }
     
 .card img{
@@ -147,38 +147,7 @@ p{
 /* ***new section*** */
 .natural img{
     margin-top: 75px;
-}
-
-.photo-frame{
-    margin: 70px;
-    border:2px solid #FFFFFF;
-    height: 200px;
-      width: 200px;
-position: relative;
-}
-.photo img{
-    width: 500px;
-    height: 300px;
     border-radius: 10px;
-   
-    }
-
-.photo-detail{
-    display: none;
- position: absolute;
- width: 300px;
- top:50px;
- left: 60px;
- 
-}
-.photo-frame:hover .photo-detail{
-    display: inline;
-}
-.photo-detail a{
-    text-decoration: none;
-    color: black;
-    font-weight: ;
-    margin-right: 10px;
 }
 
 /* ****footer**** */
@@ -194,4 +163,27 @@ position: relative;
 }
 .size{
     font-size: 20px;
+}
+
+/* ****responsive*** */
+@media(max-width:950){
+    .card{
+        grid-template-columns: repeat(2,1fr);
+        height: fit-content;
+        width: fit-content;
+    }
+     
+}
+@media(max-width:500){
+    .card{
+        grid-template-columns: 1fr;
+        height:fit-content;
+        width: fit-content;
+    }
+    .top-influencer{
+        grid-template-columns: 1fr;
+        height: fit-content;
+        width: fit-content;
+    }
+
 }
