@@ -206,7 +206,7 @@ p{
 
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 500px){
     .top-influencer{
         display: grid;
         grid-template-columns: repeat(1,1fr);
