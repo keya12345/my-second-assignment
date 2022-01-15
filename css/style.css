@@ -178,54 +178,123 @@ p{
 
 /* ****responsive*** */
 
-@media only screen and (max-width: 950px){
+@media only screen and (max-width: 900px){
 h1{
     font-size: 30px;
+    
+}
+h2{
+    font-size: 20px;
 }
     .top-influencer{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: 100px 100px;
+        margin: auto;
+        height: fit-content;
+        width: fit-content;
         
         
     }
     .logos{
         display:grid;
         grid-template-columns: repeat(2,1fr);
+        margin: 5px;
+    padding: 3px;
+        
        
+    }
+    .card img{
+        width: fit-content;
+        height: fit-content;
+    }
+    .card{
+        padding: 1px;
+        width: fit-content;
     }
     .cards{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns:100px 100px ;
+        grid-row-gap: 1px;
+        padding: 0px;
+        margin: 0px;
        
     }
     .style{
        height: fit-content;
        width: fit-content;
+       font-size: 10px;
+    }
+    .influencer{
+        margin: auto;
+        width: fit-content;
+        height: fit-content;
+        padding: 3px;
+    }
+    .influencer img{
+        height: fit-content;
+        width: fit-content;
     }
 
 }
 
 @media only screen and (max-width: 500px){
-    .top-influencer{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
+    
+    h1{
+        font-size: 20px;
         
     }
-    .logos{
-        display:grid;
-        grid-template-columns: repeat(1,1fr);
-       
+    h2{
+        font-size: 10px;
     }
-    .cards{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-       
-    }
-    .style{
-       height: fit-content;
-       width: fit-content;
-    }
-    
+        .top-influencer{
+            display: grid;
+            grid-template-columns: 1fr;
+            margin: auto;
+            height: fit-content;
+            width: fit-content;
+            
+            
+        }
+        .logos{
+            display:grid;
+            grid-template-columns: repeat(1,1fr);
+            margin: 5px;
+        padding: 3px;
+            
+           
+        }
+        .card{
+            padding: 1px;
+            width: fit-content;
+        }
+        .cards{
+            display: grid;
+            grid-template-columns:1fr ;
+            grid-row-gap: 1px;
+            padding: 0px;
+            margin: 0px;
+           
+        }
+        .style{
+           height: fit-content;
+           width: fit-content;
+           font-size: 10px;
+        }
+        .influencer{
+            margin: auto;
+            width: fit-content;
+            height: fit-content;
+            padding: 3px;
+        }
+        .influencer img{
+            height: fit-content;
+            width: fit-content;
+        }
+        .card img{
+            width: fit-content;
+            height: fit-content;
+        }
+
     }
     
     
