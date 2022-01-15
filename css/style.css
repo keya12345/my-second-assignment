@@ -179,6 +179,14 @@ p{
         width: fit-content;
         height: fit-content;
 }
+.logos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+footer{
+    height: fit-content;
+    width: fit-content;
+}
      
 }
 @media(max-width:500px){
@@ -193,5 +201,14 @@ p{
         height: fit-content;
         width: fit-content;
     }
+   .logos{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+   }
+   footer{
+       height: fit-content;
+       width: fit-content;
+   }
 
+   }
 }
