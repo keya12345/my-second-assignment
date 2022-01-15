@@ -177,7 +177,7 @@ p{
 }
 
 /* ****responsive*** */
-@media only screen and(max-width:880px){
+@media only screen and(min-width:600px){
     .cards{
         grid-template-columns: repeat(2,1fr);
         
@@ -200,7 +200,7 @@ footer{
 }
      
 }
-@media only screen and(max-width:450px){
+@media only screen and(max-width:600px){
     .cards{
         grid-template-columns: 1fr;
         
