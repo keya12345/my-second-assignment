@@ -188,7 +188,7 @@ h2{
 }
     .top-influencer{
         display: grid;
-        grid-template-columns:repeat(2,1fr) ;
+        grid-template-columns: 100px 100px;
         margin: auto;
         height: fit-content;
         width: fit-content;
@@ -209,11 +209,12 @@ h2{
     }
     .card{
         padding: 3px;
-        width: 329;
+        width: 250px;
+        border:1px solid silver;
     }
     .cards{
         display: grid;
-        grid-template-columns:repeat(2,1fr) ;
+        grid-template-columns:repeat(2,1fr); ;
         grid-row-gap: 1px;
         padding: 2px;
         margin: 2px;
@@ -226,8 +227,8 @@ h2{
     }
     .influencer{
         margin: auto;
-        width: 200px;
-        height: 100px;
+        width: fit-content;
+        height: fit-content;
         padding: 3px;
     }
     .influencer img{
