@@ -166,21 +166,29 @@ p{
 }
 
 /* ****responsive*** */
-@media(max-width:950){
-    .card{
+@media(max-width:820px){
+    .cards{
         grid-template-columns: repeat(2,1fr);
-        height: fit-content;
         width: fit-content;
+        height: fit-content;
+
     }
+.top-influencer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+        width: fit-content;
+        height: fit-content;
+}
      
 }
-@media(max-width:500){
-    .card{
+@media(max-width:500px){
+    .cards{
         grid-template-columns: 1fr;
         height:fit-content;
         width: fit-content;
     }
     .top-influencer{
+        display: grid;
         grid-template-columns: 1fr;
         height: fit-content;
         width: fit-content;
