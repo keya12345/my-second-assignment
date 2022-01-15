@@ -231,8 +231,8 @@ h2{
         padding: 3px;
     }
     .influencer img{
-        height: fit-content;
-        width: fit-content;
+        height: 20px;
+        width: 30px;
     }
 
 }
