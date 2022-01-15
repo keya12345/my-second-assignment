@@ -166,7 +166,7 @@ p{
 }
 
 /* ****responsive*** */
-@media(max-width:950px){
+@media(max-width:860px){
     .cards{
         grid-template-columns: repeat(2,1fr);
         
@@ -210,4 +210,4 @@ footer{
    }
 
    }
-}
+
