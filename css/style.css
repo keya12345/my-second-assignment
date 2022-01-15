@@ -221,14 +221,14 @@ h2{
        
     }
     .style{
-       height: 100px;
-       width: 50px;
+       height: fit-content;
+       width: fit-content;
        font-size: 10px;
     }
     .influencer{
         margin: auto;
-        width: 100px;
-        height: 50px;
+        width:fit-content;
+        height: fit-content;
         padding: 3px;
     }
     .influencer img{
